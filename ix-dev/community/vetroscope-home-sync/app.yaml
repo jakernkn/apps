@@ -1,4 +1,4 @@
-app_version: 0.1.2
+app_version: 0.1.3
 capabilities: []
 categories:
 - productivity
@@ -16,7 +16,7 @@ keywords:
 - self-hosted
 - privacy
 lib_version: 2.3.8
-lib_version_hash: ""
+lib_version_hash: cd75c897a1e8fef54b5bd00d0d8849f240bc50db2ef650eccc0ee74f3b2b2dc1
 maintainers:
 - email: dev@truenas.com
   name: truenas
