@@ -10,7 +10,7 @@
 {% do c1.environment.add_env("VS_PORT", values.network.web_port.port_number) %}
 {% do c1.environment.add_env("VS_HOST", "0.0.0.0") %}
 {% do c1.environment.add_env("VS_DATA_DIR", "/data") %}
-{% do c1.environment.add_env("VS_SERVER_NAME", values.vetroscope.server_name) %}
+{% do c1.environment.add_env("VS_SERVER_NAME", "Home Sync") %}
 {% do c1.environment.add_env("VS_ALLOW_REGISTRATION", values.vetroscope.allow_registration) %}
 {% do c1.environment.add_env("VS_MAX_DEVICES_PER_USER", values.vetroscope.max_devices_per_user) %}
 {% do c1.environment.add_env("VS_LOG_LEVEL", values.vetroscope.log_level) %}

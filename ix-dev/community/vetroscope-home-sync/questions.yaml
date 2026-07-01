@@ -19,13 +19,6 @@ questions:
     schema:
       type: dict
       attrs:
-        - variable: server_name
-          label: Server Name
-          description: A friendly name for this server, shown in the Vetroscope client.
-          schema:
-            type: string
-            default: "Home Sync"
-            required: true
         - variable: allow_registration
           label: Registration Mode
           description: |

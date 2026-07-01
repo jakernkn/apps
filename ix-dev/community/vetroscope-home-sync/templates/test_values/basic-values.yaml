@@ -4,7 +4,6 @@ resources:
     memory: 4096
 
 vetroscope:
-  server_name: "Home Sync"
   allow_registration: "invite"
   max_devices_per_user: 10
   log_level: "info"
