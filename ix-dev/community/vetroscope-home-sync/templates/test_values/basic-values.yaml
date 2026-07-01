@@ -1,0 +1,32 @@
+resources:
+  limits:
+    cpus: 2.0
+    memory: 4096
+
+vetroscope:
+  server_name: "Home Sync"
+  allow_registration: "invite"
+  max_devices_per_user: 10
+  log_level: "info"
+  additional_envs: []
+
+network:
+  host_network: false
+  web_port:
+    bind_mode: published
+    port_number: 30437
+
+run_as:
+  user: 568
+  group: 568
+
+ix_volumes:
+  data: /opt/tests/mnt/data
+
+storage:
+  data:
+    type: ix_volume
+    ix_volume_config:
+      dataset_name: data
+      create_host_path: true
+  additional_storage: []
